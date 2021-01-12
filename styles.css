@@ -1,0 +1,51 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 10px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#container {
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: mistyrose;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button, input {
+  border-radius: 5px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  background-color: mistyrose;
+}
+
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: mistyrose;
+}
+
+.icon {
+  cursor: pointer;
+}
